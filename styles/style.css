@@ -71,3 +71,21 @@ footer {
     width: 100%;
     padding: 20px;
 }
+
+.lien-icone {
+    margin-left: 30px;
+  }
+
+.techno {
+    max-height: 100%;
+}
+
+.div_techno {
+    width: 80%;
+    height: 60px;
+    margin:auto;
+    display:flex;
+    flex-direction:row;
+    justify-content: space-between;
+    align-content: center;
+}
