@@ -9,6 +9,7 @@ header {
 
 body {
     margin: 0;
+    font-size: 1em;
 }
 
 main {
@@ -16,6 +17,10 @@ main {
     padding-bottom: 80px;
     background-color: #1f2039;
     color: white;
+}
+
+h1 {
+    font-size: 2em;
 }
 
 nav {
@@ -30,6 +35,16 @@ nav {
     display: flex;
     flex-direction: row;
     padding: 20px;
+    font-size: 1.2em;
+}
+
+nav a {
+    margin-left: 30px;
+  }
+
+a {
+color: #1f2039;
+text-decoration: none;
 }
 
 h1 {
@@ -41,6 +56,12 @@ h1 {
     flex-direction: row;
     justify-content: space-evenly;
     padding-bottom: 20px;
+    margin:auto;
+    max-width: 80%;
+}
+
+.p_section_1 {
+    font-size: 1em ;  
 }
 
 .div_img_head {
@@ -55,7 +76,11 @@ h1 {
 }
 
 .section_3 {
-
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin:auto;
+    max-width: 80%;
 }
 
 footer {
@@ -88,4 +113,45 @@ footer {
     flex-direction:row;
     justify-content: space-between;
     align-content: center;
+    margin-top: 60px;
+}
+
+.photo-hover {
+    position:absolute;
+    top:0;
+    left:0;
+    right:0;
+    bottom:0;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2em;
+    color:white;
+    background-color: rgba(0,0,0,0.7);
+    display:none;
+}
+
+.lien-conteneur-photo {
+    position: relative;
+  }
+
+.lien-conteneur-photo:hover .photo-hover {
+    display: flex;
+    text-align: center;
+  }
+
+.grid-projets {
+display: grid;
+grid-template-columns: 1fr 1fr 1fr;
+grid-template-rows: 300px 300px;
+gap: 15px;
+margin: 20px;
+}
+
+.grid-projets img,
+.lien-conteneur-photo img {
+width: 100%;
+height: 100%;
+object-fit:fill;
+border: 1px solid #1f2039;
 }
