@@ -21,6 +21,17 @@ main {
 
 h1 {
     font-size: 2em;
+    color:#a5b4fc;
+}
+
+h2{
+    text-align: center;
+    padding-bottom: 20px;
+
+}
+
+.mot_important {
+    color:#a5b4fc;
 }
 
 nav {
