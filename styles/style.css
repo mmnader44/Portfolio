@@ -36,6 +36,7 @@ nav {
     flex-direction: row;
     padding: 20px;
     font-size: 1.2em;
+    z-index: 1000;
 }
 
 nav a {
